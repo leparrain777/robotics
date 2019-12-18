@@ -11,7 +11,7 @@
 \section{Tank Drive}
 \subsection{Cost}
 \begin{itemize}
-    \item Needs only 2 gearboxes. (4 if designed for meccanum) (upgraded if 6 motors used)
+    \item Needs only 2 gearboxes. (4 if designed for mecanum) (upgraded if 6 motors used)
     \item Motors used is up to the year, with options for 2 or 4. (or 6 with upgraded gearboxes)
     \item Wheels used is 6. ( or 4 if designed for meccanum)
     \item Can use any size of wheel if chains are used. Can use 6"+ if belts are used.
@@ -45,7 +45,7 @@
     \item Easiest to learn.
     \item No orientation required, no gyro/accelerometer drift.
     \item Easy to build and most likely part of a practive bot so easy to practice on.
-    \item Easiest control scheme, only needs 2 axis to control leading to less human error.
+    \item Easiest control scheme, only needs 2 axis to control on seperate hands leading to less human error.
     \item More likely to have experienced drivers.
 \end{itemize}
 \subsection{Design and Build}
@@ -60,56 +60,58 @@
     \item Either easy or very hard to repair with belts. (spares required)
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Tank Drive}
+\section{Mecanum Drive}
 \subsection{Cost}
 \begin{itemize}
-    \item Needs only 2 gearboxes. (4 if designed for meccanum) (upgraded if 6 motors used)
-    \item Motors used is up to the year, with options for 2 or 4. (or 6 with upgraded gearboxes)
-    \item Wheels used is 6. ( or 4 if designed for meccanum)
-    \item Can use any size of wheel if chains are used. Can use 6"+ if belts are used.
-    \item Can use any combination of wheels types. (2 normal and 2 omni gives rotation about end instead)
+    \item Needs 4 gearboxes.
+    \item Motors used is 4.
+    \item Wheels used is 4.
+    \item Can use any size of mecanum wheel if chains are used.
+    \item Needs a full matching set to function, with 2 of each chirality.
     \item Can use chain or belts with sprockets or pullies respectively.
 \end{itemize}
 \subsection{Programming}
 \begin{itemize}
-    \item Can be done by freshmen with some help.
-    \item Extremely straightforeward.
-    \item Short development time.
-    \item Easiest to program for autonomous. Dead reckoning or encoder reading possible.
-    \item No need for a relative heading from a gyro.
+    \item Can be done by freshmen with a some help to a lot of help.
+    \item Programming requires knowlege of how wheels are oriented.
+    \item Medium development time.
+    \item Hardest to program for autonomous. Dead reckoning isn't even a guarantee.
+    \item Can do without a gyro, but one is often used and is the source of problems.
 \end{itemize}
 \subsection{Capabilities}
 \begin{itemize}
-    \item Tied for best design for pushing in the direction of the wheels.
-    \item Resists perpendicular pushing perfectly.
-    \item Resists $Sin(|\Theta|)$ in general where $\Theta$ is the angle of the pushing force from perpendicular.
-    \item Can rotate about anywhere on the axis of the center wheels.
-    \item Single best option for traction reliability. (track optional to help traction if needed)
-    \item One of the best options for max speed/acceleration as all motors are alligned.
+    \item Not great for pushing in the direction of the wheels, but it can do it.
+    \item Resists roughly half of all pushing in any direction.
+    \item Rotations possible, but not reliable due to rollers.
+    \item Some conditional traction reliability. 
+    \item Ideal for very small perpendicular to wheel motions.
     \item More compact and leaves more space for interior components.
 \end{itemize}
 \subsection{Hinderances}
 \begin{itemize}
-    \item Must rotate to move in another direction.
+    \item Easy for most robots to push around.
+    \item Hard to operate on uneven or slick terrain, with potential to get stuck.
+    \item Wheels are prone to heavy wear and tear and flat spots causing sliding or skipping.
 \end{itemize}
 \subsection{Driver Usage}
 \begin{itemize}
-    \item Easiest to learn.
-    \item No orientation required, no gyro/accelerometer drift.
-    \item Easy to build and most likely part of a practive bot so easy to practice on.
-    \item Easiest control scheme, only needs 2 axis to control leading to less human error.
-    \item More likely to have experienced drivers.
+    \item Easy to learn. Very hard to master.
+    \item Possible orientation corrections based on presence of gyro/accelerometer and its drift.
+    \item Relatively easy to build but there may or may not be a practice bot ready.
+    \item Harder control scheme, often uses at least 3 axis on the same joystick where human error is likely.
+    \item Moderately likely to have somewhat experienced drivers, but very unlikely to have mastery.
 \end{itemize}
 \subsection{Design and Build}
 \begin{itemize}
-    \item Easiest to design.
-    \item Easiest to build.
+    \item Relatively simple to design.
+    \item Needs space for extra gearboxes and power transmission.
+    \item Easy to build.
 \end{itemize}
 \subsection{Assembly and Repair}
 \begin{itemize}
-    \item Easiest to assemble if designed well.
-    \item Easy but annoying to repair with chain and sprockets.
-    \item Either easy or very hard to repair with belts. (spares required)
+    \item Easy to assemble but requires thought of wheel orientations.
+    \item Somewhat harder to repair.
+    \item Full set of spares required at all times.
 \end{itemize}
 
 \end{document}
