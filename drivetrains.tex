@@ -113,5 +113,72 @@
     \item Somewhat harder to repair.
     \item Full set of spares required at all times.
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Omniwheel Configurations}
+\subsection{Cost}
+\begin{itemize}
+    \item Needs 2+ gearboxes depending on style, often 3 or 4.
+    \item Motors used is often the same as the number of gearboxes, except drift drive or H-drive where the robot is mainly going to be driving foreward.
+    \item Wheels used is 3+, usually the same as the number of gearboxes.
+    \item Can use any size of omni wheel if chains are used.
+    \item Can use chain or belts with sprockets or pullies respectively.
+\end{itemize}
+\subsection{Programming}
+\begin{itemize}
+    \item Drift drive, H-drive, and orthogonal holonomic drive can be done by freshmen with a some help.
+    \item Diagonal holonomic, and kiwi drive can be done by freshmen with moderate help.
+    \item Programming drift drive, H-drive, and orthogonal holonomic drive requires no knowlege of how wheels are oriented.
+    \item Programming diagonal holonomic, and kiwi drive requires knowlege of how wheels are oriented and some basic trigonometry or vector math.
+    \item Low to medium development time.
+    \item H-drive and orthogonal holonomic drive are the easiest to program for autonomous of all setups.
+    \item Drift drive, diagonal holonomic and kiwi drive are dead reckoning viable if only driving straight or else they need sensors in autonomous.
+    \item Can do without a gyro, but one is often used and is the source of problems.
+\end{itemize}
+\subsection{Capabilities}
+\begin{itemize}
+    \item Drift drive and H-drive great for pushing in the direction of the wheels, holonomic and kiwi aren't good for pushing.
+    \item Resists no pushing in any direction.
+    \item Rotations are flexible and reliable with little turning scrub.
+    \item Some conditional traction reliability. 
+    \item Drift drive is perfect for pure speed and evasion, and is usually used for pushing/herding spherical objects as the robots momentum carries the robot along with the spheres momentum.
+    \item H-drive is the faster cousing of mecanum and is used for regular robots who need fast sideways movement at the expense of some pushing resistance, but gains pushing power in all directions.
+    \item Holonomic is used if complete mobility is needed, and pushing power is not as critical, or weight needs to be reduced from H-drive.
+    \item Drift and H-drive can be swapped out for tank as needed.
+\end{itemize}
+\subsection{Hinderances}
+\begin{itemize}
+    \item Trivial for most robots to push around, unless actively pushing back.
+    \item Holonomic and kiwi drive are Hard to operate on uneven or slick terrain, with potential to get stuck.
+    \item Wheels are prone to moderate wear and tear.
+\end{itemize}
+\subsection{Driver Usage}
+\begin{itemize}
+    \item Drift is easy to learn and to be good. Mastery would take a lot of time and practice, as capabilities are potentially endless.
+    \item H-drive is easy to learn and be great. Mastery would take competition experience.
+    \item Orthogonal holonomic is easy to learn and master.
+    \item Diagonal holonomic and kiwi are easy to learn, moderate to be good, hard to be great, and mastery is a pipe dream.
+    \item Possible orientation corrections based on presence of gyro/accelerometer and its drift for diagonal holonomic and kiwi.
+    \item Any tank and drift bot are fully interchangable so there will always be a bot potentially ready in ~1hr.
+    \item H-drive could take a modified tank and would require design.
+    \item Holonomic and kiwi will not have a bot available most likely.
+    \item Drift and H-drive can use tank style drive, H-drive would need some modification for sideways movement.
+    \item H-drive, holonomic and kiwi can use one 3 axis joystick, with or without gyro.
+    \item Likely no experienced drivers.
+\end{itemize}
+\subsection{Design and Build}
+\begin{itemize}
+    \item Drift is the same design/build as tank, just different wheels.
+    \item H-drive has extra space and weight requirements, but could use current robot frame styles.
+    \item Holonomic and kiwi would require new robot frame styles to be made.
+    \item 
+    \item Needs space for extra gearboxes and power transmission.
+    \item Easy to build.
+\end{itemize}
+\subsection{Assembly and Repair}
+\begin{itemize}
+    \item Easy to assemble but requires thought of wheel orientations.
+    \item Somewhat harder to repair.
+    \item Full set of spares required at all times.
+\end{itemize}
 
 \end{document}
